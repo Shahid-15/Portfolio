@@ -47,7 +47,7 @@ function Introduction() {
 
   return (
 
-<div className='flex flex-col md:flex-row  gap-2 justify-between mx-10 md:mx-25 items-center'>
+<div className='flex bg-blue-100 shadow-lg rounded-xl p-1 flex-col md:flex-row  gap-2 justify-between mx-10 md:mx-25 items-center'>
     <div className=" flex gap-4 flex-col my-5">
         <div>
 

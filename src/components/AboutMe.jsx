@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function AboutMe() {
   return (
-    <div className='mt-30 relative '>
+    <div className='mt-30 relative hidden md:block '>
 
         <img className='absolute hidden md:block left-[100px] bottom-[150px]  ' width={290} height={290} src="images/img4.avif" alt="" />
          

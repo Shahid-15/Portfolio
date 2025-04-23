@@ -11,7 +11,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-<div className='h-[1000px]'>
+<div >
   
      <Navbar/>
 
@@ -23,7 +23,7 @@ function App() {
      <AboutMe/>
 
      {/* skills */}
-    
+    <Skills/> 
 
      {/* portfolio section */}
 
