@@ -6,12 +6,13 @@ import Navbar from './components/Navbar'
 import Introduction from './components/Introduction'
 import AboutMe from './components/AboutMe'
 import Skills from './components/Skills'
+import Projects from './components/Projects'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-<div >
+<div className=' '>
   
      <Navbar/>
 
@@ -20,12 +21,13 @@ function App() {
 
 
      {/* about me */}
-     <AboutMe/>
+     {/* <AboutMe/> */}
 
      {/* skills */}
     <Skills/> 
 
      {/* portfolio section */}
+     <Projects/>
 
      {/* companies */}
 

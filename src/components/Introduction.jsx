@@ -47,30 +47,30 @@ function Introduction() {
 
   return (
 
-<div className='flex bg-blue-100 shadow-lg rounded-xl p-1 flex-col md:flex-row  gap-2 justify-between mx-10 md:mx-25 items-center'>
+<div className='flex   bg-[url("/images/bgimage.jpg")]  bg-blue-100 shadow-lg rounded-xl p-1 flex-col md:flex-row  gap-2 justify-between mx-10 md:mx-20 items-center'>
     <div className=" flex gap-4 flex-col my-5">
         <div>
+          
+          <div className='md:ml-5'>
 
-        <h2 className='text-5xl font-bold'>Hello,</h2>
-    <h1 className="text-2xl md:text-5xl font-bold">
+        <h2 className='text-5xl text-white font-bold'>Hello,</h2>
+    <h1 className="text-2xl md:text-5xl font-bold text-white">
       I am a <span className="text-blue-600">{text}</span>
       <span className="animate-pulse">|</span>
-
     </h1>
+          
         </div>
-    <div className="md:w-[480px] text-sm   text-gray-500 leading-relaxed">
-  <p>Hi! I’m a passionate Full-Stack Web Developer</p>
-  <p>with a strong foundation in both frontend and backend technologies.</p>
-  <p>I'm currently exploring the world of DevOps</p>
-  <p>to bridge the gap between development and deployment.</p>
+    <div className="md:w-[480px] ml-5 text-sm text-gray-500 leading-relaxed">
+    Software developer with a strong foundation in both frontend and backend development, complemented by hands-on experience in DevOps practices. Skilled in delivering end-to-end web solutions with a focus on scalability, automation, and performance optimization.
 </div>
-<button className=' w-28 border bg-purple-500 text-white rounded-md px-4 py-2 flex gap-1'><img className='invert' width={20} src="/images/resumeImg.png" alt="" /><span className='font-medium'>Resume</span></button>
+</div>
+<button className='md:ml-5 cursor-pointer w-28 border bg-purple-500 text-white rounded-md px-4 py-2 flex gap-1'><img className='invert' width={20} src="/images/resumeImg.png" alt="" /><span className='font-medium '>Resume</span></button>
 
 
   </div>
 
   <div className='md:mr-50 rounded-full'>
-    <img  width={240} height={50} className='  border-4 rounded-full border-blue-500' src="images/shahid.jpg" alt="" />
+    <img  width={240} height={50} className='opacity-90  border-4 rounded-full border-blue-500' src="images/shahid.jpg" alt="" />
 </div>
 
   </div>
