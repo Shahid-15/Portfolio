@@ -1,7 +1,7 @@
 import React from 'react'
 import  { useState, useEffect } from "react";
 
-const roles = ['Software Engineer', 'DevOps learner'];
+const roles = ['Software Engineer', 'DevOps Learner'];
 
 function Introduction() {
 
