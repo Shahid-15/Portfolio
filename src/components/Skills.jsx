@@ -27,6 +27,7 @@ function Skills() {
   <img width={90} src="/skills/java.png" alt="" />
   <img width={90} src="/skills/cpp.png" alt="" />
   <img width={90} src="/skills/python.png" alt="" />
+  <img width={90} src="/skills/spring.png" alt="" />
 </div>
       
     </div>
