@@ -64,7 +64,7 @@ function Introduction() {
     Software developer with a strong foundation in both frontend and backend development, complemented by hands-on experience in DevOps practices. Skilled in delivering end-to-end web solutions with a focus on scalability, automation, and performance optimization.
 </div>
 </div>
-<button className='md:ml-5 cursor-pointer w-28 border bg-purple-500 text-white rounded-md px-4 py-2 flex gap-1'><img className='invert' width={20} src="/images/resumeImg.png" alt="" /><span className='font-medium '>Resume</span></button>
+<a href='/resume/Shahid_Chand_Resume.pdf' download><button className='md:ml-5 cursor-pointer w-28 border bg-purple-500 text-white rounded-md px-4 py-2 flex gap-1'><img className='invert' width={20} src="/images/resumeImg.png" alt="" /><span className='font-medium '>Resume</span></button></a>
 
 
   </div>
