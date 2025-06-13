@@ -3,7 +3,7 @@ import React from 'react'
 const Projects = () => {
   return (
     <div className=' bg-[url("/images/wallimage.webp")] '>
-        <h2 className='text-5xl my-10  flex justify-center items-center gap-6 font-bold text-center'><img className='w-30 invert-1' src="/images/project.png" alt="" /><span className='text-white'>Projects</span></h2>
+        <h2 className='text-5xl my-10  flex justify-center items-center gap-6 font-bold text-center'><img className='w-30 invert-1' src="/images/project.png" alt="" /><span className='text-white'>Projects (It May Take Some Time TO Load the Video Below)</span></h2>
 
        <div className='flex flex-col gap-10'>
          
