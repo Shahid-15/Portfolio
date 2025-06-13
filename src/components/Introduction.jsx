@@ -1,7 +1,7 @@
 import React from 'react'
 import  { useState, useEffect } from "react";
 
-const roles = ['Software Engineer', 'Tester'];
+const roles = ['Software Engineer', 'Tester','Java Spring boot',];
 
 function Introduction() {
 
